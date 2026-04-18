@@ -82,3 +82,14 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+
+st.markdown(
+    """
+    <hr>
+    <div style="text-align: center; font-size: 0.8em; color: gray;">
+        Input is restricted to pre-defined strings due to current hardware constraints. 
+        Future iterations of this project will integrate broader GPU support to handle real-time translation.
+    </div>
+    """, 
+    unsafe_allow_html=True
+)

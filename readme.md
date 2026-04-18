@@ -14,19 +14,24 @@ The application features a clean, user-friendly interface built with Streamlit. 
 ## ⚙️ Architecture
 The project follows a modular Python-based architecture, utilizing Streamlit for the frontend and a dictionary-based mapping system for character conversion.
 
-![Project Architecture](assets/pipeline.pdf)
+![Project Architecture](assets/pipeline.png)
 *Figure 2: Data flow from raw input through the filtering logic to the UI.*
 
-## ✨ Features
-- **Smart Filtering:** Automatically removes unsupported or broken Unicode characters (like 𫯲) to ensure a clean UI.
-- **Predefined Inputs:** Prevents user error by providing a curated list of Nôm strings.
-- **Instant Translation:** Real-time conversion from Hán-Nôm to modern Vietnamese.
-- **Mobile Friendly:** Responsive design accessible via any web browser.
-
-## 🛠️ Installation & Local Development
+## Installation & Local Development
 If you want to run this project locally:
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+   git clone [https://github.com/NguyenThaiVu/nom_vietnamese](https://github.com/NguyenThaiVu/nom_vietnamese)
    cd your-repo-name
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Run the app:**
+   ```bash
+   streamlit run your_app.py
+   ```
